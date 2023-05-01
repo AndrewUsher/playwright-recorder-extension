@@ -1,0 +1,33 @@
+{
+  "name": "playwright-recorder-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "yarn test",
+    "build": "rsync -a src/*.json build/ && rsync -a src/*.html build/ && rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewusher/playwright-recorder-extension.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "playwright",
+    "automation"
+  ],
+  "author": "andrewusher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewusher/playwright-recorder-extension/issues"
+  },
+  "homepage": "https://github.com/andrewusher/playwright-recorder-extension#readme",
+  "dependencies": {
+    "playwright-chrome-recorder": "1.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "rollup": "2.77.2"
+  }
+}

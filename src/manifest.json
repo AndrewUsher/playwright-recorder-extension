@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Playwright Chrome Recorder",
+  "description": "Playwright extension for DevTools that allows you to export tests directly from the Recorder panel.",
+  "permissions": [],
+  "devtools_page": "DevToolsPlugin.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "minimum_chrome_version": "104.0.0.0"
+}
