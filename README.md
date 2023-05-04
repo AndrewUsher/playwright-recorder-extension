@@ -4,7 +4,7 @@
 
 
 
-Add [this Chrome Extension](#) to export DevTools Recordings as Playwright Tests directly from the [DevTools Recorder Panel](https://goo.gle/devtools-recorder).
+Add [this Chrome Extension](https://chrome.google.com/webstore/detail/playwright-chrome-recorde/bfnbgoehgplaehdceponclakmhlgjlpd) to export DevTools Recordings as Playwright Tests directly from the [DevTools Recorder Panel](https://goo.gle/devtools-recorder).
 
 ## Usage
 
